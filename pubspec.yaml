@@ -1,0 +1,23 @@
+name: autenticacao_biometrica
+description: AUTENTICAÇÃO BIOMETRICA
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  local_auth: ^2.1.7
+  objectbox: ^2.3.1
+  provider: ^6.0.5
+  http:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
